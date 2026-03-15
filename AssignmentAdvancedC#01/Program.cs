@@ -62,6 +62,9 @@ namespace AssignmentAdvancedC_01
             //  Covariance(out) --> Allows you to use a more derived type than originally specified IEnumerable<string> can be treated as IEnumerable<object> it's for output only.
             #endregion
 
+            #region Q16
+            //Contravariance (in) --> Allows you to use a more generic (base) type than originally specified it's for input only.
+            #endregion
         }
 
         #region Q4
