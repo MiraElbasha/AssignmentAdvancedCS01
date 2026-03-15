@@ -54,6 +54,7 @@ namespace AssignmentAdvancedC_01
             //example --> class Service<T> where T : BaseService {T can be any class that inherits from BaseService}
             #endregion
 
+            
         }
 
         #region Q4
@@ -103,4 +104,10 @@ namespace AssignmentAdvancedC_01
     //}
     #endregion
 
+    #region Q12
+    //public class DataHandler<T> where T : class, IComparable<T>, new()
+    //{
+    //    // T must be a class AND implement IComparable AND have a constructor
+    //}
+    #endregion
 }
