@@ -38,6 +38,11 @@ namespace AssignmentAdvancedC_01
             //class constraint --> must be reference type
             //example --> class ReferenceBox<T> where T : class {T can be string or object}
             #endregion
+           
+            #region Q9
+             //new() constraint --> must have a parameterless constructor
+            //example --> class Factory<T> where T : new() {T can be any class with a default constructor}
+            #endregion
 
         }
 
