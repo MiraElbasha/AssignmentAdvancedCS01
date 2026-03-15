@@ -54,7 +54,10 @@ namespace AssignmentAdvancedC_01
             //example --> class Service<T> where T : BaseService {T can be any class that inherits from BaseService}
             #endregion
 
-            
+            #region Q13
+            //It returns the default value for a type null for reference types and 0/fasle for value types
+            #endregion
+
         }
 
         #region Q4
