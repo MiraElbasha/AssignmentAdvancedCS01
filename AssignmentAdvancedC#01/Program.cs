@@ -27,7 +27,12 @@ namespace AssignmentAdvancedC_01
             //An interface that can work with any entity type.
             #endregion
 
-
+            #region Q7
+            //Stuct Constraint --> Must be a value type
+            //example --> class ValueBox<T> where T : struct {
+            //T can be int, double, bool but not string or class
+            //}
+            #endregion
         }
 
         #region Q4
