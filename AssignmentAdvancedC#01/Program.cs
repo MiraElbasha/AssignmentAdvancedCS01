@@ -38,10 +38,15 @@ namespace AssignmentAdvancedC_01
             //class constraint --> must be reference type
             //example --> class ReferenceBox<T> where T : class {T can be string or object}
             #endregion
-           
+
             #region Q9
-             //new() constraint --> must have a parameterless constructor
+            //new() constraint --> must have a parameterless constructor
             //example --> class Factory<T> where T : new() {T can be any class with a default constructor}
+            #endregion
+
+            #region Q10
+            //interface constraint --> Must implement a specific interface.
+            //example --> class Repository<T> where T : IEntity {T can be any class that implements IEntity interface}
             #endregion
 
         }
