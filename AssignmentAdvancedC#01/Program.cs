@@ -19,10 +19,23 @@ namespace AssignmentAdvancedC_01
             //Multiple type parameters allow a class to handle more than one "placeholder" type at once like class , Iinterface , new()
             #endregion
 
+            #region Q4
+            //generic method defines its own type parameters independent of the class it belongs to so there is no need to use generic class
+            #endregion
+
         }
+
+            #region Q4
+        //public void Swap<T>(ref T a, ref T b)
+        //{
+        //    T temp = a;
+        //    a = b;
+        //    b = temp;
+        //}
+        #endregion
     }
 
-             #region Q2
+    #region Q2
     //public class Container<T>
     // {
     //      private T _item;
@@ -31,11 +44,12 @@ namespace AssignmentAdvancedC_01
     // }
     #endregion
 
-             #region Q3
+    #region Q3
     //public class Pair<TKey, TValue>
     //{
     //    public TKey Key { get; set; }
     //    public TValue Value { get; set; }
     //}
     #endregion
+
 }
