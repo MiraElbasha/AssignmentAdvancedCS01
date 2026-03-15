@@ -1,4 +1,6 @@
-﻿namespace AssignmentAdvancedC_01
+﻿using System.Reflection.Metadata;
+
+namespace AssignmentAdvancedC_01
 {
     internal class Program
     {
@@ -13,16 +15,27 @@
             */
             #endregion
 
-           
+            #region Q3
+            //Multiple type parameters allow a class to handle more than one "placeholder" type at once like class , Iinterface , new()
+            #endregion
+
         }
     }
 
-         #region Q2
-            //public class Container<T>
-            // {
-            //      private T _item;
-            //      public void Add(T item) => _item = item;
-            //      public T Get() => _item;
-            // }
+             #region Q2
+    //public class Container<T>
+    // {
+    //      private T _item;
+    //      public void Add(T item) => _item = item;
+    //      public T Get() => _item;
+    // }
+    #endregion
+
+             #region Q3
+    //public class Pair<TKey, TValue>
+    //{
+    //    public TKey Key { get; set; }
+    //    public TValue Value { get; set; }
+    //}
     #endregion
 }
