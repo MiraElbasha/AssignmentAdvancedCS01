@@ -65,6 +65,10 @@ namespace AssignmentAdvancedC_01
             #region Q16
             //Contravariance (in) --> Allows you to use a more generic (base) type than originally specified it's for input only.
             #endregion
+
+            #region Q17
+            //Covariance is about reading out (getting) but Contravariance is about passing in (setting).
+            #endregion
         }
 
         #region Q4
