@@ -132,4 +132,14 @@ namespace AssignmentAdvancedC_01
     //    public T GetAt(int index) => (index >= 0 && index < _list.Count) ? _list[index] : default;
     //}
     #endregion
+
+    #region Q19
+
+    //internal class Base<T>
+    //{
+    //}
+    //class Child<T> : Base<T> { }
+
+    //class StringChild : Base<string> { } 
+    #endregion
 }
