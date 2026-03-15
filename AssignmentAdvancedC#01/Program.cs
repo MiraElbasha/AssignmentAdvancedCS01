@@ -12,6 +12,17 @@
                3. Performance: it decreare the need for boxing and unboxing when using value types which can improve performance
             */
             #endregion
+
+           
         }
     }
+
+         #region Q2
+            //public class Container<T>
+            // {
+            //      private T _item;
+            //      public void Add(T item) => _item = item;
+            //      public T Get() => _item;
+            // }
+    #endregion
 }
