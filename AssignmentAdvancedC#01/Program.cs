@@ -58,6 +58,10 @@ namespace AssignmentAdvancedC_01
             //It returns the default value for a type null for reference types and 0/fasle for value types
             #endregion
 
+            #region Q15
+            //  Covariance(out) --> Allows you to use a more derived type than originally specified IEnumerable<string> can be treated as IEnumerable<object> it's for output only.
+            #endregion
+
         }
 
         #region Q4
