@@ -23,7 +23,10 @@ namespace AssignmentAdvancedC_01
             //generic method defines its own type parameters independent of the class it belongs to so there is no need to use generic class
             #endregion
 
-         
+            #region Q6
+            //An interface that can work with any entity type.
+            #endregion
+
 
         }
 
@@ -45,6 +48,14 @@ namespace AssignmentAdvancedC_01
         //        if (item.CompareTo(max) > 0) max = item;
         //    }
         //    return max;
+        //}
+        #endregion
+
+        #region Q6
+        //public interface IRepository<T>
+        //{
+        //    void Add(T entity);
+        //    T GetById(int id);
         //}
         #endregion
     }
