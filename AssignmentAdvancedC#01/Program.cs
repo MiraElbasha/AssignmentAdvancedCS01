@@ -49,6 +49,11 @@ namespace AssignmentAdvancedC_01
             //example --> class Repository<T> where T : IEntity {T can be any class that implements IEntity interface}
             #endregion
 
+            #region Q11
+            //Base class constraint --> Must inherit from a specific class
+            //example --> class Service<T> where T : BaseService {T can be any class that inherits from BaseService}
+            #endregion
+
         }
 
         #region Q4
