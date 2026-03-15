@@ -33,6 +33,12 @@ namespace AssignmentAdvancedC_01
             //T can be int, double, bool but not string or class
             //}
             #endregion
+
+            #region Q8
+            //class constraint --> must be reference type
+            //example --> class ReferenceBox<T> where T : class {T can be string or object}
+            #endregion
+
         }
 
         #region Q4
