@@ -113,4 +113,12 @@ namespace AssignmentAdvancedC_01
     //    // T must be a class AND implement IComparable AND have a constructor
     //}
     #endregion
+
+    #region Q14
+    //public class SafeList<T>
+    //{
+    //    private List<T> _list = new();
+    //    public T GetAt(int index) => (index >= 0 && index < _list.Count) ? _list[index] : default;
+    //}
+    #endregion
 }
